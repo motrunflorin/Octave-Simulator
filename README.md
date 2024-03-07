@@ -118,29 +118,3 @@ How to Use
         F to delete a matrix.
         S to apply Strassen algorithm.
         Q to quit.
-
-Example Usage
-
-c
-
-#include <stdio.h>
-#include "matrix_operations.h"
-
-int main() {
-    arr_matrix_t arr;
-    alloc_arr(&arr);
-
-    // Example: Adding a matrix
-    matrix_t matrix;
-    alloc_grid(&matrix, 3, 3);
-    // Populate matrix with values...
-    add_matrix(&arr, matrix);
-
-    // Example: Printing a matrix
-    print_matrix(&arr, 0);
-
-    // Other operations...
-    
-    free_arr(&arr);
-    return 0;
-}

@@ -102,19 +102,3 @@ Usage
     F: Delete a matrix from the array.
     S: Apply Strassen algorithm.
     Q: Quit the program.
-
-How to Use
-
-    Allocate memory for the array of matrices.
-    Use commands:
-        L to add a matrix.
-        P to print a matrix.
-        D to print matrix dimensions.
-        M to multiply and add matrices.
-        T to transpose a matrix.
-        O to sort matrices.
-        R to raise a matrix to a power.
-        C to resize a matrix.
-        F to delete a matrix.
-        S to apply Strassen algorithm.
-        Q to quit.

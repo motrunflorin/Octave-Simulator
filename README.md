@@ -1,7 +1,5 @@
-Matrix Manipulation Library
-Description
+Matrix operations: addition, multiplication, transpose, resizing, sorting, and more. It also includes the Strassen algorithm for efficient matrix multiplication.
 
-This is a C library for matrix operations, including basic operations like addition, multiplication, transpose, resizing, sorting, and more. It also includes the Strassen algorithm for efficient matrix multiplication.
 Structures
 
     matrix_t: Represents a matrix with rows, columns, and the values of the matrix as a 2D array.
